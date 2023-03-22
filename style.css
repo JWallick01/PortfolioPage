@@ -1,0 +1,49 @@
+header,footer{ /*Used to style header and footer*/
+  background-color: #1F2833;
+  margin: 1px;
+  padding: 25px;
+  border: 30px;
+  
+}
+h1{   /*styles the individuel headers*/
+  font-size: 50px;
+  padding-top: 30px;
+}
+h2{
+  font-size: 20px;
+  padding-bottom: 40px;
+ 
+}
+h1,h2{
+color: #66FCF1 ;
+text-align: center;
+font-family: 'Abril Fatface', cursive;
+}
+h3{
+  color: #1F2833;
+}
+body{
+  background-color: #C5C6C7; 
+}
+article{
+  text-align: center;
+  font-size: 20px;
+  color: #1F2833;
+  font-family: 'Abril Fatface',cursive;
+}
+ul,li{ /*styles the lists and list items */
+  text-align: left;
+  font-size: 20px;
+}
+footer,a{
+  color: #66FCF1;
+  font-family: 'Abril Fatface', cursive; 
+}
+a:link{color: #66FCF1} /*class for altering links interaction */
+a:hover{color: blue}
+a:active{color:red}
+
+hr{
+  background-color: #1F2833;
+  height: 2px;
+}
